@@ -1,6 +1,6 @@
 import express from 'express';
 import jwt from 'jsonwebtoken';
-import { currentUser } from '../middlewares/current-user';
+import { currentUser } from '@znuta-tickets/common';
 
 const router = express.Router();
 
