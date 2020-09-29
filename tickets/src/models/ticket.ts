@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 
 interface TicketAttrs {
   title: string;
-  price: string;
-  userId: number;
+  price: number;
+  userId: string;
 }
 
 ////////interface dat describe model prop
@@ -14,8 +14,8 @@ interface TicketModel extends mongoose.Model<TicketDoc> {
 
 interface TicketDoc extends mongoose.Document {
   title: string;
-  price: string;
-  userId: number;
+  price: number;
+  userId: string;
 }
 
 const TicketSchema = new mongoose.Schema(

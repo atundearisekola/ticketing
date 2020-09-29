@@ -22,14 +22,23 @@
     "@types/express": "^4.17.6",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/mongoose": "^5.7.36",
-    "@znuta-tickets/common": "^1.1.2",
+    "@znuta-tickets/common": "^1.1.6",
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "express-validator": "^6.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.28",
+    "node-nats-streaming": "^0.3.2",
+    "supertest": "^4.0.2",
     "ts-node-dev": "^1.0.0-pre.49",
     "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.4.2",
+    "mongodb-memory-server": "^6.7.5",
+    "ts-jest": "^26.3.0"
   }
 }
